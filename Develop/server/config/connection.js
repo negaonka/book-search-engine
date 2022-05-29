@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/googlebooks', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://negaonka:neha131511@cluster0.9e4kb.mongodb.net/googlebooks?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
